@@ -12,6 +12,6 @@ export default function Weather (props) {
     
     axios.get(apiUrl).then(handleResponse);
     return (
-        <Puff color="#00BFFF" height={80} width={80} />
+        <Puff color="red" height={80} width={80} />
     );
 }
